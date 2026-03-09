@@ -1,0 +1,31 @@
+# Casos de teste - Swag Labs
+## CT001 - Login com credenciais válidas
+
+Funcionalidades testadas: 
+Login de usuàrio 
+
+Sistema:
+Swag Labs
+
+Pré-condições:
+- Usuário válido disponível
+- Página de login acessível 
+- Conexão com internet ativa
+
+Dados do teste:
+Username: standard_user
+Password: secret_sauce
+
+Passos do teste:
+1- Acessar a página de login do sistema 
+2- Inserir o username "standard_user."
+3- Inserir a senha "secret_sauce"
+
+Resultado esperado:
+O sistema deve permitir o login e redirecionar para página de produtos 
+
+Resultado obtido: 
+Usuário foi redirecionado para página de produtos 
+
+Status:
+Pass
